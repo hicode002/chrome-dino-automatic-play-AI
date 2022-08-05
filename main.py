@@ -3,6 +3,7 @@ import time
 from PIL import Image
 from PIL import ImageGrab
 import numpy as np
+'''
 def hash_img(img):#计算图片的特征序列
     a=[]#存储图片的像素
     hash_img=''#特征序列
@@ -25,7 +26,7 @@ def hash_img(img):#计算图片的特征序列
                 hash_img+='0'
                 
     return hash_img
-    
+'''    
 def similar(img):#求相似度
     im=np.array(img.convert("L"))
     ans=0
